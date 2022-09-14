@@ -1,0 +1,17 @@
+'''元组的创建方式'''
+#1.使用()
+t=('Python','World',99)
+print(t)
+print(type(t))
+#2.内置函数tuple()
+t1=tuple(('Python','World',99))
+print(t1)
+print(type(t1))
+#3.元组只有一个元素是，要在()里加上,要不然类型就是该元素本身的类型
+t3=('Python')
+print(type(t3))
+t4=('Python',)
+print(type(t4))
+#4.空元组
+t5=()
+t5=tuple()
